@@ -20,8 +20,8 @@ $ sudo apt-get install emacs
 #include <stdio.h>
 int main()
 {
-    printf( “Ողջո՛ւյն։\n” );
-    printf( “Այդ ես եմ՝ քո առաջին C ծրագիրը:\n” );
+    printf( "Ողջո՛ւյն։\n" );
+    printf( "Այդ ես եմ՝ քո առաջին C ծրագիրը:\n" );
 }
 ```
 
