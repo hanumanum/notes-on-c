@@ -8,10 +8,10 @@ int main( int argc, char** argv )
   double y = atof( argv[2] );
 
   double rho = sqrt( x * x + y * y );
-  double theta = atan2( y, x );
+  double phi = atan2( y, x );
 
   printf( "Բևեռային կոորդնատներն են․ ");
-  printf( "ρ = %lf, θ = %lf\n", rho, theta );
+  printf( "ρ = %lf, φ = %lf\n", rho, phi );
 
   return 0;
 }
