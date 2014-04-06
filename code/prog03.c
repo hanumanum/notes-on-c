@@ -1,16 +1,25 @@
+
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 
-int main( int argc, char** argv )
+/**/
+void polar( double x, double y, double* rho, double* phi )
 {
-  double x = atof( argv[1] );
-  double y = atof( argv[2] );
+  *rho = sqrt( x * x + y * y );
+  *phi = atan2( y, x );
+}
 
-  double rho = sqrt( x * x + y * y );
-  double phi = atan2( y, x );
+/**/
+int main()
+{
+  double x = 0.0, y = 0.0;
+  puts( "Ներածիր դեկարտյան կոորդինատները x,y․ " );
+  scanf( "%lf,%lf", &x, &y );
 
-  printf( "Բևեռային կոորդնատներն են․ ");
+  double rho = 0.0, phi = 0.0;
+  polar( x, y, &rho, &phi );
+
+  puts( "Բևեռային կոորդնատներն են․ ");
   printf( "ρ = %lf, φ = %lf\n", rho, phi );
 
   return 0;

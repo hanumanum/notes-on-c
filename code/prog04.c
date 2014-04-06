@@ -1,26 +1,18 @@
-
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
-int read_int()
+int main( int argc, char** argv )
 {
-  int res = 0;
-  scanf( "%d", &res );
-  return res;
-}
+  double x = atof( argv[1] );
+  double y = atof( argv[2] );
 
-int max_2_int( int a, int b )
-{
-  if( a > b ) return a;
-  return b;
-}
+  double rho = sqrt( x * x + y * y );
+  double phi = atan2( y, x );
 
-int max_3_int( int a, int b, int c )
-{
-  return max_2_int( max_2_int( a, b ), c );
-}
+  printf( "Բևեռային կոորդնատներն են․ ");
+  printf( "ρ = %lf, φ = %lf\n", rho, phi );
 
-int main()
-{
   return 0;
 }
 
