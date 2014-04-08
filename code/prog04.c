@@ -1,18 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 
-int main( int argc, char** argv )
+/**/
+int sign( double num )
 {
-  double x = atof( argv[1] );
-  double y = atof( argv[2] );
-
-  double rho = sqrt( x * x + y * y );
-  double phi = atan2( y, x );
-
-  printf( "Բևեռային կոորդնատներն են․ ");
-  printf( "ρ = %lf, φ = %lf\n", rho, phi );
-
-  return 0;
+  int res = 0;
+  if( num < 0 )
+    res = -1;
+  else if( num > 0 )
+    res = 1;
+  return res;
 }
+
 
