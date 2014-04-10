@@ -13,3 +13,5 @@
 * [Զրույց I](https://github.com/armenbadal/notes-on-c/blob/master/chapter01.md) - որտեղ պատմում եմ C լեզվով ծրագրեր գրելու ամենաառաջին քայլերի մասին,
 * [Զրույց II](https://github.com/armenbadal/notes-on-c/blob/master/chapter02.md) - որտեղ պատմում եմ փոփոխակաների հայտարության, նրանց տիպերի մասին, ինչպես նաև ստանդարտ ներածման ու արտածման հոսքերի մասին, նաև մաթեմատիկական գրադարանի մասին։
 * [Զրույց III](https://github.com/armenbadal/notes-on-c/blob/master/chapter03.md) - որտեղ ես պատմում եմ ֆունկցիաների հայտարարման ու սահմանման մասին։
+* [Զրույց IV](https://github.com/armenbadal/notes-on-c/blob/master/chapter04.md) - որտեղ ես պատմում եմ ճյուղավորման ու ընտրության հրամանների, անպայման անցման հրամանի և ռեկուրսիայի մասին։
+* [Զրույց V](https://github.com/armenbadal/notes-on-c/blob/master/chapter05.md) - որտեղ ես պատմում եմ ստրուկտուրաների սահմանման ու օգտագործման մասին։
