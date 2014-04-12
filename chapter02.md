@@ -144,7 +144,7 @@ $ clang -c prog02.c
 
 
 ```bash
-$ clang prog02.c -o prog2.c -lm
+$ clang prog02.o -o prog2.c -lm
 ```
 
 Սա էլ կապակցման հրամանն է, որը ստեղծում է `prog02` կատարվող ֆայլը։
