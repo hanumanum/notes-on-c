@@ -64,5 +64,5 @@ extern double head( struct node* );
 extern struct node* tail( struct node* );
 ```
 
-
+*{Ցուցակը տպելու ռեկուրսիվ և իտերատիվ (while) եղանակների մասին։}*
 
