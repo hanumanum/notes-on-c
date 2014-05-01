@@ -24,7 +24,10 @@ struct node* create_node( double k )
 }
 
 /**/
-void add_to_front( double k, struct node** list )
+typedef struct node* silist;
+
+/**/
+void add_to_front( double k, silist* list )
 {
   struct node* no = create_node( k );
   no->next = *list;
@@ -32,23 +35,22 @@ void add_to_front( double k, struct node** list )
 }
 
 /**/
-double remove_from_front( struct node** list )
+void remove_from_front( silist* list )
 {
-  struct node* no = *list;
+  struct node* head = *list;
   *list = (*list)->next;
-  double res = no->key;
-  free( no );
-  return res;
+  double res = head->key;
+  free( head );
 }
 
 /**/
-double remove_from_back( struct node** list )
+void remove_from_back( silist* list )
 {
-  return 0.0;
+  if( NULL == *list )
 }
 
 /**/
-void add_to_back( double k, struct node** list )
+void add_to_back( double k, silist* list )
 {
   if( NULL == *list )
     *list = create_node( k );
@@ -57,7 +59,7 @@ void add_to_back( double k, struct node** list )
 }
 
 /**/
-void print_list( struct node* list )
+void print_list( silist list )
 {
   if( list != NULL ) {
     printf( "%lf ", list->key );
@@ -65,20 +67,22 @@ void print_list( struct node* list )
   }
 }
 
+#define NL putchar('\n')
+
 /**/
 int main()
 {
-  struct node* e1 = NULL;
+  silist e1 = NULL;
   add_to_front( 5.6, &e1 );
   add_to_front( 3.4, &e1 );
   add_to_front( 1.2, &e1 );
-  print_list( e1 );
+  print_list( e1 ); NL;
 
-  struct node* e2 = NULL;
+  silist e2 = NULL;
   add_to_back( 5.6, &e2 );
   add_to_back( 3.4, &e2 );
   add_to_back( 1.2, &e2 );
-  print_list( e2 );
+  print_list( e2 ); NL;
 
   return 0;
 }
