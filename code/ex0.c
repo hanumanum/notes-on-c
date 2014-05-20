@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include "ni.c"
+#include "ni.h"
 
 /**/
 double sqr(double x) { return x * x; }
