@@ -15,3 +15,8 @@
 * [Զրույց III](https://github.com/armenbadal/notes-on-c/blob/master/chapter03.md) - որտեղ ես պատմում եմ ֆունկցիաների հայտարարման ու սահմանման մասին։
 * [Զրույց IV](https://github.com/armenbadal/notes-on-c/blob/master/chapter04.md) - որտեղ ես պատմում եմ ճյուղավորման ու ընտրության հրամանների, անպայման անցման հրամանի և ռեկուրսիայի մասին։
 * [Զրույց V](https://github.com/armenbadal/notes-on-c/blob/master/chapter05.md) - որտեղ ես պատմում եմ ստրուկտուրաների սահմանման ու օգտագործման մասին։
+* [Զրույց VI](https://github.com/armenbadal/notes-on-c/blob/master/chapter06.md) - որտեղ պատմում եմ զանգվածների և հաշվիչով ցիկլի մասին։
+* [Զրույց VII](https://github.com/armenbadal/notes-on-c/blob/master/chapter07.md) - որտեղ խոսում եմ հիշողության դինամիկ օգտագործման մասին։
+* [Զրույց VIII](https://github.com/armenbadal/notes-on-c/blob/master/chapter08.md) - որտեղ պատմում եմ տեղերի հետ աշխատելու մասին։
+* [Զրույց IX](https://github.com/armenbadal/notes-on-c/blob/master/chapter09.md) - որտեղ պատմում եմ ֆայլերի հետ աշխատելու մասին։
+* [Զրույց X](https://github.com/armenbadal/notes-on-c/blob/master/chapter10.md) - ստատիկ և դինամիկ գրադարաններ ստեղծելու մասին։
