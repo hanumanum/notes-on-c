@@ -20,3 +20,6 @@
 * [Զրույց VIII](https://github.com/armenbadal/notes-on-c/blob/master/chapter08.md) - որտեղ պատմում եմ տեղերի հետ աշխատելու մասին։
 * [Զրույց IX](https://github.com/armenbadal/notes-on-c/blob/master/chapter09.md) - որտեղ պատմում եմ ֆայլերի հետ աշխատելու մասին։
 * [Զրույց X](https://github.com/armenbadal/notes-on-c/blob/master/chapter10.md) - ստատիկ և դինամիկ գրադարաններ ստեղծելու մասին։
+
+----
+
